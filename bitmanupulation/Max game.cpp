@@ -29,4 +29,4 @@ int main() {
         cout << out_;
         cout << "\n";
     }
-}
+}   
