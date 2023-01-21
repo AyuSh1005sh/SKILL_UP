@@ -1,3 +1,4 @@
+
 void find(vector<string>&a,int index,string curr,vector<string>&ans){
     if(index==a.size()){
         ans.push_back(curr);
