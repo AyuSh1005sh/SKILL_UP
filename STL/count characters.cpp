@@ -16,10 +16,10 @@ int main()
     for(auto x:ss){
         k+=x;
     }
-    for(int i=0;i<ss.size();i++){
-        
+    for(int i=0;i<ss.size();i++){        
         v.push_back({k[i],0});
     }
+    
     for(int i=0;i<s.size();i++){
         for(int j=0;j<ss.size();j++){
             if(s[i]==k[j]){
@@ -27,6 +27,7 @@ int main()
             }
         }
     }
+
     for(int i=0;i<ss.size();i++){
         cout<<v[i].first<<" "<<v[i].second<<endl;
     }
